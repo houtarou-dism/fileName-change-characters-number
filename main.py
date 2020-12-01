@@ -51,7 +51,7 @@ def main():
 
                 file_name = os.path.basename(file)
 
-                if file_name.startswith(".") or file_name == "":
+                if file_name.startswith(".") or file_name == "" or file_name == "README.md":
                     pass
                     continue
 
